@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "776ef498-094d-452b-9407-9c5f66c7d722",
+		"name": "cermati",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27818860"
+	},
+	"item": [
+		{
+			"name": "name",
+			"item": [
+				{
+					"name": "france",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}name/france",
+							"host": [
+								"{{base_url}}name"
+							],
+							"path": [
+								"france"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "uni",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}name/uni",
+							"host": [
+								"{{base_url}}name"
+							],
+							"path": [
+								"uni"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "empty-negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}name/",
+							"host": [
+								"{{base_url}}name"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "wakanda-negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}name/",
+							"host": [
+								"{{base_url}}name"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "currency",
+			"item": [
+				{
+					"name": "USD",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}currency/USD",
+							"host": [
+								"{{base_url}}currency"
+							],
+							"path": [
+								"USD"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "IDR",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}currency/IDR",
+							"host": [
+								"{{base_url}}currency"
+							],
+							"path": [
+								"IDR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "zzz-negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}currency/zzz",
+							"host": [
+								"{{base_url}}currency"
+							],
+							"path": [
+								"zzz"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "123-negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}currency/123",
+							"host": [
+								"{{base_url}}currency"
+							],
+							"path": [
+								"123"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "language",
+			"item": [
+				{
+					"name": "english",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}lang/english",
+							"host": [
+								"{{base_url}}lang"
+							],
+							"path": [
+								"english"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "indonesian",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}lang/indonesian",
+							"host": [
+								"{{base_url}}lang"
+							],
+							"path": [
+								"indonesian"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "javanesse-negative",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}lang/javanesse",
+							"host": [
+								"{{base_url}}lang"
+							],
+							"path": [
+								"javanesse"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invalid input",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}lang/@#!",
+							"host": [
+								"{{base_url}}lang"
+							],
+							"path": [
+								"@"
+							],
+							"hash": "!"
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
